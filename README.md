@@ -28,15 +28,15 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read.
 
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
-
+The foreach and map methods are different because the map creates a new array where as the foreach does not.
 2. Explain the difference between a callback and a higher order function.
-
+You can use a callback to pass a function to another function. The higher order function is what you would pass another function into.
 3. What is closure?
-
+Closure is what happens anytime you create a function in js, this gives you access to the outer functions scope from the inner scope.
 4. Describe the four rules of the 'this' keyword.
-
+First rule would be window binding which is what a browser defaults to and is bad practice. The second is imclicit binding which is whenever you would bind something by using a dot before. The third would be the new binding which is used when using the constructor function and you would use the word new before. The final rule would be explicit binding which usually calls back and overwrites a previous constructor such as a .call.
 5. Why do we need super() in an extended class?
-
+The super method is what tells the parent constructor to read the childs attributes.
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
 ## Instructions
